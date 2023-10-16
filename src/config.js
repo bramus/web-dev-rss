@@ -1,9 +1,9 @@
 const endpoint = 'https://web.dev/_d/dynamic_content';
 
 const data = {
-	blog: '[null,null,null,"type:blog",null,null,null,null,31,null,null,null,2]',
-	articles: '[null,null,null,"family_url:/articles",null,null,null,null,501,null,null,null,2]',
-	'case-studies': '[null,null,null,"keyword:casestudy",null,null,null,null,31,null,null,null,2]',
+	blog: '[null,null,null,"type:blog",null,null,null,null,10,null,null,null,2]',
+	articles: '[null,null,null,"family_url:/articles",null,null,null,null,10,null,null,null,2]',
+	'case-studies': '[null,null,null,"keyword:casestudy",null,null,null,null,10,null,null,null,2]',
 };
 
 const headers = {

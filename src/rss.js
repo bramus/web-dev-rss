@@ -58,7 +58,7 @@ export default {
 			return new Response('Could not fetch data from origin server', { status: 504 });
 		}
 
-		const items = raw_data[0].slice(0, 10).map((item) => ({
+		const items = raw_data[0].map((item) => ({
 			title: item[0],
 			link: item[6],
 			author: item[17],

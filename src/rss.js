@@ -1,7 +1,6 @@
 import { data, endpoint, headers } from './config.js';
 
 const getRawDataFromOrigin = async (what) => {
-	// @TODO: Check if we can limit the number of returned items somehow
 	const feed_req = await fetch(endpoint, {
 		headers,
 		body: data[what],

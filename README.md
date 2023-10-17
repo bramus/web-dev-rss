@@ -19,8 +19,6 @@
 
 ## Raw Data Feeds
 
-## Web.dev RSS Feeds
-
 ### Blog
 
 ```bash

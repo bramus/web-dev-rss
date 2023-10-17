@@ -1,10 +1,12 @@
 # RSS Feeds for web.dev (Cloudflare Worker)
 
+This repo contains a Cloudflare Worker that generates RSS Feeds for the various types of Dynamic Content that [https://web.dev/](https://web.dev/) has. The worker parses the [raw data](#raw-data-feeds) and transforms them to [RSS 2.0](https://www.rssboard.org/rss-specification).
+
 ## Live Endpoints
 
-- https://web-dev-rss.bramus.workers.dev/blog
-- https://web-dev-rss.bramus.workers.dev/articles
-- https://web-dev-rss.bramus.workers.dev/case-studies
+- Blog: https://web-dev-rss.bramus.workers.dev/blog
+- Articles: https://web-dev-rss.bramus.workers.dev/articles
+- Case Studies: https://web-dev-rss.bramus.workers.dev/case-studies
 
 ## Dev
 

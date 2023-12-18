@@ -42,12 +42,12 @@ const buildFeed = (self_url, content_type, items) => {
 };
 
 export default {
-	async fetch(request, env, ctx) {
+	async fetch(request) {
 		const url = new URL(request.url);
 		const content_type = url.pathname.replace(/^\//, '').replace(/\/$/, ''); // Trim off leading and trailing /
 
 		if (!Object.keys(data).includes(content_type)) {
-			return new Response('Invalid Feed', { status: 404 });
+			return new Response(null, { status: 404 });
 		}
 
 		let raw_data = null;

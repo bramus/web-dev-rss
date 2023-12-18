@@ -1,3 +1,8 @@
+const redirects = {
+	blog: 'https://web.dev/blog/feed.xml',
+	articles: 'https://web.dev/articles/feed.xml',
+};
+
 const endpoint = 'https://web.dev/_d/dynamic_content';
 
 const data = {
@@ -12,4 +17,4 @@ const headers = {
 	'content-type': 'text/plain;charset=UTF-8',
 };
 
-export { endpoint, data, headers };
+export { redirects, endpoint, data, headers };

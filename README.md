@@ -4,8 +4,8 @@ This repo contains a Cloudflare Worker that generates RSS Feeds for the various 
 
 ## Live Endpoints
 
-- Blog: https://web-dev-rss.bramus.workers.dev/blog
-- Articles: https://web-dev-rss.bramus.workers.dev/articles
+- Blog: ~~https://web-dev-rss.bramus.workers.dev/blog~~ _(redirects to the official https://web.dev/blog/feed.xml)_
+- Articles: ~~https://web-dev-rss.bramus.workers.dev/articles~~ _(redirects to the official https://web.dev/articles/feed.xml)_
 - Case Studies: https://web-dev-rss.bramus.workers.dev/case-studies
 
 ## Dev
